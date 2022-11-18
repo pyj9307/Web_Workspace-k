@@ -1,66 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
-   <style>
-    #grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        border-color:aqua;
-    }
-    </style>
+    <link rel="stylesheet" href="style_main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Resiter</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-            </li>
-            </ul>
-        </div>
+            <a class="fs-1" href="main.html" style="color:green">Green Market</a>
+            <div class="row row-cols-auto" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">채소</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">│</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">육류</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><img src="search.png" width="25"
+                            height="25"></button>
+                </form>
+                <div></div>
+            </div>
+            <div class="d-flix" role="button">
+                <div id="d-flix_button">
+                    <a button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Sign
+                        Up</a>
+                    <a button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Log
+                        In</a>
+                </div>
+                <div id="d-flix_button">
+                    <img src="icons8-male-user-24.png" width="25" height="25">
+                    <img src="heart.png" width="25" height="25">
+                    <img src="icons8-shopping-cart-24.png" width="25" height="25">
+                </div>
+                <div id="d-flix_button">
+                    <a button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">공지사항</a>
+                    <a button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">help</a>
+                </div>
+            </div>
         </div>
     </nav>
-    <nav class="navbar" style="background-color: white">
-        <h1><a href="main.html" style="color: green;">Green Market</a></h1>
-       
-        <span><a href="">채소</a></span>|<span><a href="">육류</a></span>
-        
-        <button type="button" onclick="" class="btn btn-primary">Sign Up</button>
-        <button type="button" onclick="" class="btn btn-primary">Log In</button>
-      </nav>
-      
-      <nav class="navbar" style="background-color: rgba(183, 183, 183, 0.826)">
-        <ol>
-            <a href="">베스트</a>
-            <a href="">신상품</a>
-            <a href="">이달의 할인</a>
-            <a href="">특가/혜택</a>
-            </ol>
-      </nav>
-      
-      </nav>
-    
-    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">베스트</a>
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">신상품</a>
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">이달의 할인</a>
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">특가/혜택</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="감자.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="고구마.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="소고기.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="돼지고기.jpg" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="menu" style="padding: 7%; border: 7%; margin: %;">
+        <div style="width:30%; float: left; margin-left: 3%">
+            <a href=""><img src="돼지고기 1.jpg" class="d-block w-100"></a>
+            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+        </div>
+        <div style="width:30%; float: left; margin-left: 3%">
+            <a href=""><img src="돼지고기 1.jpg" class="d-block w-100"></a>
+            <a class="nav-link text-center" href="">닭가슴살로 만드는 닭스테이크 만들기 </a>
+        </div>
+        <div style="width:30%; float: left; margin-left: 3%">
+            <a href=""><img src="돼지고기 1.jpg" class="d-block w-100"></a>
+            <a class="nav-link text-center" href="">특 1++ 한우 초특가 </a>
+        </div>
+    </div>
+    <div class="menu" style="padding: 7%">
+        <div style="width:30%; float: left; margin-left: 3%">
+            <a href=""><img src="돼지고기 1.jpg" class="d-block w-100"></a>
+            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+        </div>
+        <div style="width:30%; float: left; margin-left: 3%">
+            <a href=""><img src="돼지고기 1.jpg" class="d-block w-100"></a>
+            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+        </div>
+        <div style="width:30%; float: left; margin-left: 3%">
+            <a href=""><img src="돼지고기 1.jpg" class="d-block w-100"></a>
+            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+        </div>
+    </div>
 </body>
+
 </html>
