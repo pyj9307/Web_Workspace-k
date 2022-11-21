@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인</title>
+    <title>Log In</title>
+    <link rel="stylesheet" href="stylemain.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <style type="text/css">
+    </style>
 </head>
+
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="fs-1" href="main.html" style="color:green">Green Market</a>
+            <div class="row row-cols-auto" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">채소</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">│</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">육류</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><img src="search.png" width="25"
+                            height="25"></button>
+                </form>
+                <div></div>
+            </div>
+            <div class="d-flix" role="button">
+                <div id="d-flix_button">
+                    <a button href="signup.html" class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Sign
+                        Up</a>
+                    <a button href="login.html" class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Log
+                        In</a>
+                </div>
+                <div id="d-flix_button">
+                    <img src="icons8-male-user-24.png" width="25" height="25">
+                    <img src="heart.png" width="25" height="25">
+                    <img src="icons8-shopping-cart-24.png" width="25" height="25">
+                </div>
+                <div id="d-flix_button">
+                    <a button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">공지사항</a>
+                    <a button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">help</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">베스트</a>
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">신상품</a>
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">이달의 할인</a>
+                    <li class="nav-item"></li>
+                    <a class="nav-link active" aria-current="page" href="">특가/혜택</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="login">
+        <div class="idpass">
+            <div class="idpassin">
+                <img src="user.png" height="28px">
+                <input type="text">
+            </div>
+            <div class="idpassin">
+                <img src="key.png" height="28px">
+                <input type="password">
+            </div>
+            <div>
+                <input type="checkbox"> 비밀번호 기억하기
+            </div>
+            <div class="loginbtn">
+                <button class="btn btn-outline-success" type="submit">Sign Up</button>
+                <button class="btn btn-outline-success" type="submit">Log In</button>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+
+        <div class="icons">
+            <img src="free-icon-instagram-2111463.png" style="height: 50px;"><a href=""></a>
+            <img src="facebook.png" style="height: 50px;"><a href=""></a>
+            <img src="kakao-talk.png" style="height: 50px;"><a href=""></a>
+            <img src="google-drive.png" style="height: 50px;"><a href=""></a>
+            <img src="twitter.png" style="height: 50px;"><a href=""></a>
+        </div>
+        <div class="allright">
+            <div class="allrights">
+                © Untitled. All rights reserved. | tel.000-000-0000/email.abcd1234@exp.com
+            </div>
+        </div>
+
+        <div class="nametag">
+            <div class="nametag pic">
+                <img src="user.png" style="width: 70px; height: 70px;">
+            </div>
+            <div>
+                <a style="color:green">Green Market</a></br>
+                <a style="color:green">대표자 : 박영주</a></br>
+                <a>Contact : 051-123-4567</a><br>
+                <a style="color:rgb(192, 186, 15)">Kakao : Greenmark</a>
+            </div>
+
+        </div>
+    </div>
 </body>
+
 </html>

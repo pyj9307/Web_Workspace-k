@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <link rel="stylesheet" href="style_main.css">
+    <link rel="stylesheet" href="stylemain.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -15,6 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
         crossorigin="anonymous"></script>
+    <style type="text/css">
+    </style>
 </head>
 
 <body>
@@ -31,7 +33,7 @@
                         <a class="nav-link" href="">│</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">육류</a>
+                        <a class="nav-link" href="">육류</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -43,12 +45,11 @@
             </div>
             <div class="d-flix" role="button">
                 <div id="d-flix_button">
-                    <a button class="btn btn-outline-primary"
+                    <a button href="signup.html" class="btn btn-outline-primary"
                         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Sign
                         Up</a>
-                    <a button class="btn btn-outline-primary"
-                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Log
-                        In</a>
+                    <a button href="login.html" class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Log In</a>
                 </div>
                 <div id="d-flix_button">
                     <img src="icons8-male-user-24.png" width="25" height="25">
@@ -95,16 +96,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="4000">
-                <img src="감자.jpg" class="d-block w-100">
+                <img src="potato.jpg" class="d-block w-100">
             </div>
             <div class="carousel-item" data-bs-interval="4000">
-                <img src="고구마.jpg" class="d-block w-100">
+                <img src="sweet potato.jpeg" class="d-block w-100">
             </div>
             <div class="carousel-item" data-bs-interval="4000">
-                <img src="소고기.jpg" class="d-block w-100">
+                <img src="cow.jpg" class="d-block w-100">
             </div>
             <div class="carousel-item" data-bs-interval="4000">
-                <img src="돼지고기.jpg" class="d-block w-100">
+                <img src="meat.jpg" class="d-block w-100">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -118,32 +119,70 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="menu" style="padding: 7%; border: 7%; margin:0 ;">
-        <div style="width:30%; float: left; margin-left: 3% ">
-            <a href=""><img src="돼지고기 1.jpg" class=" w-100"></a>
-            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+    <div class="menu" style="text-align:center">
+        <div class="grid">
+            <div class="test">
+                <a href=""><img class="a" src="샤인머스캣.jpg"></a>
+                <a href="" class="hyperlinks">샤인 머스켓 산지직송 12,000￦/kg ~ </a></br>
+                <a href="" class="hyperlinks">선착순 이벤트 100분께 드리는 특가! 일 300kg 한정 월~금까지 다른 과일 추가구매 시 10% 할인의
+                    혜택</a>
+            </div>
+            <div class="test">
+                <a href=""><img src="chickensteak2.jpg" class="a"></a>
+                <a href="" class="hyperlinks">닭가슴살로 만드는 닭스테이크 만들기 </a></br>
+                <a href="" class="hyperlinks">부드러운 닭가슴살과 올리브유로 만드는 담백한 맛, 맛과 건강을 다잡았다!</a>
+            </div>
+            <div class="test">
+                <a href=""><img src="korea meat.jpg" class="a"></a>
+                <a href="" class="hyperlinks">특 1++ 한우 초특가 </a></br>
+                <a href="" class="hyperlinks">9만원 이상 구매하신 분들께 드리는 특가! 무항생제, 넓은 들판에서 키우는 스트레스 없는 한우 추가구매 시 10%
+                    할인의 혜택까지!</a>
+            </div>
         </div>
-        <div style="width:30%; float: left; margin-left: 3%">
-            <a href=""><img src="돼지고기 1.jpg" class=" w-100"></a>
-            <a class="nav-link text-center" href="">닭가슴살로 만드는 닭스테이크 만들기 </a>
-        </div>
-        <div style="width:30%; float: left; margin-left: 3%">
-            <a href=""><img src="돼지고기 1.jpg" class=" w-100"></a>
-            <a class="nav-link text-center" href="">특 1++ 한우 초특가 </a>
+        <div class="grid">
+            <div class="test">
+                <a href=""><img src="밀키트.jpg" class="a"></a>
+                <a href="" class="hyperlinks">편하게 한끼</a></br>
+                <a href="" class="hyperlinks">집에서 먹을 수 있는 간편식 1인분부터 5인분까지 간편 포장 레시피대로 따라만 하면 당신도 오늘의 요리사!</a>
+            </div>
+            <div class="test">
+                <a href=""><img src="vegan.jpg" class="a"></a>
+                <a href="" class="hyperlinks">가볍게 채식</a></br>
+                <a href="" class="hyperlinks">비건/베지테리언/세미 베지테리언 기본식 본인 식습관에 따른 선택적 식단 구분! 끼니 거르지 않게 주말/당일 배송
+                    지원</a>
+            </div>
+            <div class="test">
+                <a href=""><img src="돼지고기 1.jpg" class="a"></a>
+                <a href="" class="hyperlinks">나는 고기파!</a></br>
+                <a href="" class="hyperlinks">그린 마켓 구매하시는 모든분께 드리는 특가! 이달의 할인, 초특가 대용량 구매시 10% 할인의 혜택까지!</a>
+            </div>
         </div>
     </div>
-    <div class="menu" style="padding: 7%">
-        <div style="width:30%; float: left; margin-left: 3% ">
-            <a href=""><img src="돼지고기 1.jpg" class=" w-100"></a>
-            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+    <div class="grid">
+
+        <div class="icons">
+            <img src="free-icon-instagram-2111463.png" style="height: 50px;"><a href=""></a>
+            <img src="facebook.png" style="height: 50px;"><a href=""></a>
+            <img src="kakao-talk.png" style="height: 50px;"><a href=""></a>
+            <img src="google-drive.png" style="height: 50px;"><a href=""></a>
+            <img src="twitter.png" style="height: 50px;"><a href=""></a>
         </div>
-        <div style="width:30%; float: left; margin-left: 3%">
-            <a href=""><img src="돼지고기 1.jpg" class=" w-100"></a>
-            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+        <div class="allright">
+            <div class="allrights">
+                © Untitled. All rights reserved. | tel.000-000-0000/email.abcd1234@exp.com
+            </div>
         </div>
-        <div style="width:30%; float: left; margin-left: 3%">
-            <a href=""><img src="돼지고기 1.jpg" class=" w-100"></a>
-            <a class="nav-link text-center" href="">샤인 머스켓 산지직송 12,000/kg ~ </a>
+
+        <div class="nametag">
+            <div class="nametag pic">
+            <img src="user.png" style="width: 70px; height: 70px;">    
+            </div>
+            <div>
+                <a style="color:green">Green Market</a></br>
+                <a style="color:green">대표자 : 박영주</a></br>
+                <a>Contact : 051-123-4567</a><br>
+                <a style="color:rgb(192, 186, 15)">Kakao : Greenmark</a>
+            </div>
         </div>
     </div>
 </body>

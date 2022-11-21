@@ -1,0 +1,99 @@
+.signup {
+    border: 1px solid;
+    border-color: black;
+    background-image: url(food2.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    display: grid;
+}
+
+.sighupcontent {
+    top: 40%;
+    left: 40%;
+}
+
+.login {
+    border: 1px solid;
+    border-color: black;
+    background-image: url(food2.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    display: grid;
+}
+
+.idpass {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.footer {
+    background-color: rgb(230, 229, 229);
+    height: 300px;
+    align-items: center;
+}
+
+.allrights {
+    text-align: center;
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+}
+
+.allright {
+    position: relative;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.grid {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    padding: 10px;
+}
+
+.test {
+    padding: 10px
+}
+
+.a {
+    width: 100%;
+}
+
+a:link {
+    color: olive;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration-line: none;
+}
+
+a:active {
+    color: green;
+    text-decoration-line: none;
+}
+
+.nametag {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+}
