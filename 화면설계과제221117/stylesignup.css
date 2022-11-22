@@ -4,13 +4,12 @@
     background-image: url(food2.jpg);
     background-size: cover;
     height: 500px;
+    align-items: center;
     text-align: center;
+    grid-template-areas:
+   ' a b b';
+    margin-left: 0;
     display: grid;
-}
-
-.sighupcontent {
-    top: 40%;
-    left: 40%;
 }
 
 .login {
