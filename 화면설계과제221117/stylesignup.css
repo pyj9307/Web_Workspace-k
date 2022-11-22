@@ -22,12 +22,6 @@
     display: grid;
 }
 
-.idpass {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-}
-
 .footer {
     background-color: rgb(230, 229, 229);
     height: 300px;
@@ -66,6 +60,17 @@
 
 .a {
     width: 100%;
+}
+
+.signupinput {
+    margin: 0px;
+    display: block;
+}
+
+.signupid {
+    margin: 0px;
+    display: block;
+    text-decoration: white;
 }
 
 a:link {
